@@ -20,6 +20,8 @@
       [exec] (xterm) {xterm}
       [exec] (firefox) {firefox}
       [exec] (sublime text) {subl}
+
+[separator]
 [submenu] (Fluxbox menu)
       [config] (Configure)
 [submenu] (System Styles) {Choose a style...}
@@ -36,5 +38,10 @@
       [separator]
       [exit] (Exit)
 [end]
+
+[separator]
+[exec](reboot)		{poweroff --reboot} 
+[exec](shut down) 	{poweroff}
+
 [endencoding]
 [end]
